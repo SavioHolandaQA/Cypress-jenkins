@@ -17,6 +17,7 @@ pipeline {
             }
         }
 
+
         stage('Rodar testes Cypress com Cypress Cloud') {
             steps {
                 sh 'npm run test'
